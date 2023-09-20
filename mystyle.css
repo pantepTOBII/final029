@@ -1,0 +1,26 @@
+body { 
+    font-family : tahoma;
+
+    background : url("ban01.jpg")
+}
+
+.contain {
+    width: 75%;
+    height: 800px;
+    margin: auto;
+    overflow: hidden;
+    background: white;
+}
+@media screen and (min-width: 960px)
+{
+.contain { width : 90%; }
+.slidebar , content { width : 100%; }
+.nav {display : none;}
+}
+ 
+@media screen and (min-width: 480px)
+{
+.contain { width : 90%; }
+.slidebar , content { width : 100%; }
+.nav {display : none;}
+}
